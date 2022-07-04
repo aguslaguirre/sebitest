@@ -18,11 +18,9 @@ def transform(text_file_contents):
 def form():
     return """
         <html>
+                <h2>Modelo de detección de Fraudes NALA.</h2>
             <body>
-                <h1>Let's TRY to Predict..</h1>
-                </br>
-                </br>
-                <p> Insert your CSV file and then download the Result
+                <p> Comparta su archivo CSV.</p>
                 <form action="/transform" method="post" enctype="multipart/form-data">
                     <input type="file" name="data_file" class="btn btn-block"/>
                     </br>
