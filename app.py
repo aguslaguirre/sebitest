@@ -64,4 +64,4 @@ def transform_view():
     return response
 
 if __name__ == "__main__":
-    app.run(debug=False,port=9000)
+    app.run(debug=True,port=9000)
